@@ -24,7 +24,7 @@ if (bojaTeksta == 'plava') {
 let visina = prompt('Unesite visinu dugmeta');
 if(visina >= 50 ) {
     btn.style.height = visina + 'px';
-} else if (visina < 50){
+} else {
     alert('Uneli ste pogresne mere')
 }
 
@@ -32,6 +32,6 @@ if(visina >= 50 ) {
 let sirina = prompt('Unesite sirinu dugmeta');
 if(sirina >= 50 ) {
     btn.style.width = sirina + 'px';
-} else if (sirina < 50){
+} else{
     alert('Uneli ste pogresne mere')
 }
